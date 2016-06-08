@@ -5,15 +5,15 @@ Design and prototype of an oscilloscope for the Fab Lab 2.0 to be built during F
 Features
 --
 
+- multiple probes
 - support multiple voltages
 - adjustable zoom
-- multiple probes
-- 
+- up to 10 KHZ signals
 
 Sketch
 --
 
-<img src="media/fab_oscilloscope.jpg" width="70%">
+<img src="media/fab_oscilloscope.jpg" width="90%">
 
 satshakit based oscilloscope test:
 
