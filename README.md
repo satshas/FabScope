@@ -15,6 +15,12 @@ Sketch
 
 <img src="media/fab_oscilloscope.jpg" width="90%">
 
-satshakit based oscilloscope test:
+satshakit based oscilloscope first test:
 
 <img src="media/test.jpg" width="70%">
+
+satshakit128 oscilloscope first prototype:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=vfb-XHrSilM
+" target="_blank"><img src="http://img.youtube.com/vi/vfb-XHrSilM/0.jpg" 
+alt="http://img.youtube.com/vi/vfb-XHrSilM/0.jpg" width="240" height="180" border="10" /></a>
