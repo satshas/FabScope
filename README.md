@@ -5,7 +5,7 @@ Design and prototype of an oscilloscope for the Fab Lab 2.0 to be built during F
 Features
 --
 
-- 4 voltage range supported: 0-5V, 0-50V, 0-120V, 0-250V
+- 4 voltage range supported: 0-5V, 0-50V, 0-120V, 0-220V
 - button to change the voltage ranges
 - supported sampling frequency: from 100HZ to 10KHZ
 - adjustable sampling frequency using a potentiometer
