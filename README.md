@@ -45,13 +45,17 @@ Software
 Media
 --
 
-<img src="media/oscilloscope.jpg.jpg" width="90%">
+<img src="media/oscilloscope.jpg" width="90%">
 
 <img src="media/scope_left.jpg" width="90%">
 
 <img src="media/scope_right.jpg" width="90%">
 
 <img src="media/scope_screws.jpg" width="90%">
+
+<img src="media/scope_back.jpg" width="90%">
+
+<img src="media/scope_ftdi.jpg" width="90%">
 
 <img src="media/scope_working_1.jpg" width="90%">
 
