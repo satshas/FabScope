@@ -8,7 +8,7 @@ Features
 --
 
 - 4 voltage range supported: 0-5V, 0-50V, 0-120V, 0-200V (DC only)
-- button to change the voltage ranges
+- button to change the voltage ranges using interrupts
 - supported sampling frequency: from 100HZ to 10KHZ
 - adjustable sampling frequency using a potentiometer
 - 128 x 64 graphic display
@@ -23,8 +23,7 @@ Next steps:
 
 - voltage measurements: max, min, average
 - voltage detection to auto select the proper voltage range
-- add the power supply
-- laser cut the case 
+- fit function that will zoom exactly into the current signal range
 
 Board
 --
