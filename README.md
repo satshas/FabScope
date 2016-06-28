@@ -2,7 +2,7 @@
 
 Design and prototype of an oscilloscope for the Fab Lab 2.0 to be built during Fab12 Shenzhen
 
-<img src="media/oscilloscope.jpg.jpg" width="90%">
+<img src="media/oscilloscope.jpg" width="90%">
 
 Features
 --
@@ -57,21 +57,25 @@ Media
 
 <img src="media/scope_working_2.jpg" width="90%">
 
-satshakit based oscilloscope first test:
-
-<img src="media/test.jpg" width="70%">
-
-Fab12 oscilloscope first prototype:
+first prototype:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=vfb-XHrSilM
 " target="_blank"><img src="http://img.youtube.com/vi/vfb-XHrSilM/0.jpg" 
 alt="http://img.youtube.com/vi/vfb-XHrSilM/0.jpg" width="240" height="180" border="10" /></a>
 
-Fab12 oscilloscope second prototype:
+second prototype:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=ZUI9FebEU8A
 " target="_blank"><img src="http://img.youtube.com/vi/ZUI9FebEU8A/0.jpg" 
 alt="http://img.youtube.com/vi/ZUI9FebEU8A/0.jpg" width="240" height="180" border="10" /></a>
+
+third prototype: almost done!
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=hz2n1A5LBG4
+" target="_blank"><img src="http://img.youtube.com/vi/hz2n1A5LBG4/0.jpg" 
+alt="http://img.youtube.com/vi/hz2n1A5LBG4/0.jpg" width="240" height="180" border="10" /></a>
+
+
 
 
 
