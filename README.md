@@ -78,6 +78,32 @@ third prototype: almost done!
 " target="_blank"><img src="http://img.youtube.com/vi/hz2n1A5LBG4/0.jpg" 
 alt="http://img.youtube.com/vi/hz2n1A5LBG4/0.jpg" width="240" height="180" border="10" /></a>
 
+Authors
+--
+
+- Daniele Ingrassia
+
+Contact
+--
+
+- **ingrassiada@gmail.com**
+- **[linkedin](http://it.linkedin.com/in/danieleingrassia)**
+
+Thanks
+--
+
+[Fablab Kamp-Lintfort](http://fablab.hochschule-rhein-waal.de/index.php/de/)<br />
+Hochschule Rhein-Waal<br />
+Friedrich-Heinrich-Allee 25, 47475 Kamp-Lintfort, Germany<br />
+fablab@hochschule-rhein-waal.de
+
+[Mighty 1284P](https://github.com/JChristensen/mighty-1284p/tree/v1.6.3)
+
+
+License
+--
+This work is licensed under the terms of Attribution-NonCommercial-ShareAlike 4.0 International ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
+
 
 
 
