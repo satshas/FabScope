@@ -1,4 +1,4 @@
-# Fab1 Scope
+# Fab12 Scope
 
 Design and prototype of an oscilloscope for the Fab Lab 2.0 to be built during Fab12 Shenzhen
 
@@ -16,7 +16,7 @@ Features
 - on/off switch
 - plug and play probes
 - portable (9V battery last for more than 8 hours)
-- mdf and acrylic case
+- mdf and acrylic cases
 - programmable using an FTDI cable without opening the box
 
 Next steps:
