@@ -97,9 +97,6 @@ Hochschule Rhein-Waal<br />
 Friedrich-Heinrich-Allee 25, 47475 Kamp-Lintfort, Germany<br />
 fablab@hochschule-rhein-waal.de
 
-[Mighty 1284P](https://github.com/JChristensen/mighty-1284p/tree/v1.6.3)
-
-
 License
 --
 This work is licensed under the terms of Attribution-NonCommercial-ShareAlike 4.0 International ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
