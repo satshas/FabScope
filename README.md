@@ -40,7 +40,6 @@ Software
 Media
 --
 
-<img src="media/oscilloscope.jpg" width="90%">
 
 <img src="media/scope_left.jpg" width="90%">
 
