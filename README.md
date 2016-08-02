@@ -2,7 +2,7 @@
 
 Design and prototype of an oscilloscope for the Fab Lab 2.0 to be built during Fab12 Shenzhen
 
-<img src="media/oscilloscope.jpg" width="90%">
+<img src="media/last_version.jpg" width="90%">
 
 Features
 --
@@ -18,11 +18,7 @@ Features
 - portable (9V battery last for more than 8 hours)
 - mdf and acrylic cases
 - programmable using an FTDI cable without opening the box
-
-Next steps:
-
 - voltage measurements: max, min, average
-- voltage detection to auto select the proper voltage range
 - fit function that will zoom exactly into the current signal range
 
 Board
@@ -77,6 +73,12 @@ third prototype: almost done!
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=hz2n1A5LBG4
 " target="_blank"><img src="http://img.youtube.com/vi/hz2n1A5LBG4/0.jpg" 
 alt="http://img.youtube.com/vi/hz2n1A5LBG4/0.jpg" width="240" height="180" border="10" /></a>
+
+final prototype:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=CpN0IQ96ghQ
+" target="_blank"><img src="http://img.youtube.com/vi/CpN0IQ96ghQ/0.jpg" 
+alt="http://img.youtube.com/vi/CpN0IQ96ghQ/0.jpg" width="240" height="180" border="10" /></a>
 
 Authors
 --
