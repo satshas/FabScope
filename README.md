@@ -2,7 +2,7 @@
 
 An easily fabbable and portable oscilloscope.
 
-<img src="media/last_version.jpg" width="90%">
+<img src="media/fab_scope_front.jpg" width="90%">
 
 Features
 --
@@ -26,6 +26,8 @@ Board
 
 <img src="media/eagle_board.png" width="70%">
 
+<img src="media/fab_scope_board.jpg" width="70%">
+
 - [Fab12 scope schematic](https://github.com/satshas/FabScope/raw/master/eagle/fab_scope.sch)
 - [Fab12 scope board](https://github.com/satshas/FabScope/raw/master/eagle/fab_scope.brd)
 - [Fab12 scope internal png](https://github.com/satshas/FabScope/raw/master/media/fab_scope_internal.png)
@@ -39,15 +41,15 @@ Software
 Media
 --
 
-<img src="media/scope_left.jpg" width="90%">
+<img src="media/fab_scope_front1.jpg" width="90%">
 
-<img src="media/scope_right.jpg" width="90%">
+<img src="media/fab_scope_inside.jpg" width="90%">
 
-<img src="media/scope_screws.jpg" width="90%">
+<img src="media/fab_scope_side_2.jpg" width="90%">
 
-<img src="media/scope_back.jpg" width="90%">
+<img src="media/fab_scope_side1.jpg" width="90%">
 
-<img src="media/scope_ftdi.jpg" width="90%">
+<img src="media/fab_scope_back.jpg" width="90%">
 
 <img src="media/scope_working_1.jpg" width="90%">
 
