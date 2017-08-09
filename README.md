@@ -51,10 +51,6 @@ Media
 
 <img src="media/fab_scope_back.jpg" width="90%">
 
-<img src="media/scope_working_1.jpg" width="90%">
-
-<img src="media/scope_working_2.jpg" width="90%">
-
 
 Authors
 --
