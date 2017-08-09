@@ -34,7 +34,7 @@ Board
 Software
 --
 
-[download the code](https://raw.githubusercontent.com/satshas/Fab12_Oscilloscope/master/code/fab12_oscilloscope_v0.2/fab12_oscilloscope_v0.2.ino)
+[download the code](https://raw.githubusercontent.com/satshas/FabScope/master/code/fab_scope/fab_scope.ino)
 
 Media
 --
