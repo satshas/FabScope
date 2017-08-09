@@ -6,14 +6,15 @@
 #define PROBE_PIN A0
 #define SAMPLING_RATE_PIN A5
 #define BUTTON_VOLTAGE_RANGE 2
-#define BUTTON_FIT 1
+#define BUTTON_FIT 10
 
-#define RELAY_K1_PIN 13
-#define RELAY_K2_PIN 14
-#define RELAY_K3_PIN 15
-#define RELAY_K4_PIN 16
-#define RELAY_K5_PIN 17
-#define RELAY_K6_PIN 18
+#define RELAY_K1_PIN 15
+#define RELAY_K2_PIN 18
+
+//#define RELAY_K3_PIN 15
+//#define RELAY_K4_PIN 16
+//#define RELAY_K5_PIN 17
+//#define RELAY_K6_PIN 18
 
 #define MINIMUM_DISPLAY_SIGNAL_HEIGHT 3
 #define MAXIMUM_DISPLAY_SIGNAL_HEIGHT 61
@@ -71,10 +72,10 @@ void setup(void) {
   //digital relay pins init
   pinMode(RELAY_K1_PIN,OUTPUT);
   pinMode(RELAY_K2_PIN,OUTPUT);
-  pinMode(RELAY_K3_PIN,OUTPUT);
-  pinMode(RELAY_K4_PIN,OUTPUT);
-  pinMode(RELAY_K5_PIN,OUTPUT);
-  pinMode(RELAY_K6_PIN,OUTPUT);
+  //pinMode(RELAY_K3_PIN,OUTPUT);
+  //pinMode(RELAY_K4_PIN,OUTPUT);
+  //pinMode(RELAY_K5_PIN,OUTPUT);
+  //pinMode(RELAY_K6_PIN,OUTPUT);
 
   //init time vars
   buttonRangeTimePressed1 = 0;
@@ -92,11 +93,13 @@ void setup(void) {
   u8g.setColorIndex(1);
 
   //default position at maximum voltage
-  switch_200();
+  switch_5();
 
   //attach interrupts for changing the voltage range
   attachInterrupt(digitalPinToInterrupt(BUTTON_VOLTAGE_RANGE), interruptFunctionRange, HIGH);
 
+  //attach interrupts for changing the fit button
+  attachInterrupt(digitalPinToInterrupt(BUTTON_FIT), interruptFunctionFit, HIGH);
  
   if(DEBUG)
     Serial.println("init ok");
@@ -105,7 +108,7 @@ void setup(void) {
 
 void loop(void) {
 
-  if(digitalRead(BUTTON_FIT)){
+  /*if(digitalRead(BUTTON_FIT)){
 
     if(DEBUG)
       Serial.println("buttonFit");
@@ -115,7 +118,7 @@ void loop(void) {
     else
       fitFunction = true;
     
-  }
+  }*/
   
   //do a complete probe and then refresh the screen
   //this is needed because the resfresh rate of the display is to slow
@@ -240,7 +243,7 @@ void draw(void) {
   u8g.drawLine(0,(SIGNAL_FRAME_H/2)-1,SIGNAL_FRAME_W-1,(SIGNAL_FRAME_H/2)-1);
 
   u8g.setFont(u8g_font_6x13B);
-  u8g.drawStr(SIGNAL_FRAME_W+1, 9, "FAB12");
+  u8g.drawStr(SIGNAL_FRAME_W+1, 9, "FAB");
   u8g.drawStr(SIGNAL_FRAME_W+1, 19, "SCOPE");
 
   //set micro size for all the text on the side
@@ -387,12 +390,12 @@ void draw(void) {
 
 void switch_50(){
  
-  digitalWrite(RELAY_K1_PIN,LOW);
-  digitalWrite(RELAY_K2_PIN,LOW);
-  digitalWrite(RELAY_K3_PIN,HIGH);
-  digitalWrite(RELAY_K4_PIN,LOW);
-  digitalWrite(RELAY_K5_PIN,LOW);
-  digitalWrite(RELAY_K6_PIN,HIGH);
+  digitalWrite(RELAY_K1_PIN,HIGH);
+  digitalWrite(RELAY_K2_PIN,HIGH);
+  //digitalWrite(RELAY_K3_PIN,HIGH);
+  //digitalWrite(RELAY_K4_PIN,LOW);
+  //digitalWrite(RELAY_K5_PIN,LOW);
+  //digitalWrite(RELAY_K6_PIN,HIGH);
 
   memset(voltageRangePrint,'\0',9);
 
@@ -413,10 +416,10 @@ void switch_5(){
 
   digitalWrite(RELAY_K1_PIN,LOW);
   digitalWrite(RELAY_K2_PIN,LOW);
-  digitalWrite(RELAY_K3_PIN,LOW);
-  digitalWrite(RELAY_K4_PIN,LOW);
-  digitalWrite(RELAY_K5_PIN,LOW);
-  digitalWrite(RELAY_K6_PIN,LOW);
+  //digitalWrite(RELAY_K3_PIN,LOW);
+  //digitalWrite(RELAY_K4_PIN,LOW);
+  //digitalWrite(RELAY_K5_PIN,LOW);
+  //digitalWrite(RELAY_K6_PIN,LOW);
 
   memset(voltageRangePrint,'\0',9);
 
@@ -432,6 +435,7 @@ void switch_5(){
  
 }
 
+/*
 void switch_120(){
 
   digitalWrite(RELAY_K1_PIN,HIGH);
@@ -456,7 +460,8 @@ void switch_120(){
   currentVoltageRatio = voltageRatio120;
  
 }
-
+*/
+/*
 void switch_200(){
 
   digitalWrite(RELAY_K1_PIN,LOW);
@@ -481,7 +486,7 @@ void switch_200(){
   currentVoltageRatio = voltageRatio200;
  
 }
-
+*/
 void interruptFunctionRange(){
 
   buttonRangeTimePressed1 = millis();
@@ -490,12 +495,12 @@ void interruptFunctionRange(){
    
     if(currentRange == 5)
       switch_50();
-    else
-    if(currentRange == 50)
-      switch_120();
-    else
-    if(currentRange == 120)
-      switch_200();
+//    else
+//    if(currentRange == 50)
+//      switch_120();
+//    else
+//    if(currentRange == 120)
+//      switch_200();
      else
       switch_5();
 
@@ -515,3 +520,4 @@ void interruptFunctionFit(){
     Serial.println("interruptFunctionFit");
   
 }
+
