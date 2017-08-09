@@ -24,10 +24,10 @@ Features
 Board
 --
 
-<img src="media/board_eagle.png" width="70%">
+<img src="media/eagle_board.png" width="70%">
 
-- [Fab12 scope schematic](https://raw.githubusercontent.com/satshas/Fab12_Oscilloscope/master/eagle/fab12_oscilloscope.sch)
-- [Fab12 scope board](https://raw.githubusercontent.com/satshas/Fab12_Oscilloscope/master/eagle/fab12_oscilloscope.brd)
+- [Fab12 scope schematic](https://github.com/satshas/FabScope/raw/master/eagle/fab_scope.sch)
+- [Fab12 scope board](https://github.com/satshas/FabScope/raw/master/eagle/fab_scope.brd)
 - [Fab12 scope internal png](https://raw.githubusercontent.com/satshas/Fab12_Oscilloscope/master/media/fab12_oscilloscope_internal.png)
 - [Fab12 scope cut png](https://raw.githubusercontent.com/satshas/Fab12_Oscilloscope/master/media/fab12_oscilloscope_cut.png)
 
